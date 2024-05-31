@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/5b7c0498-c93f-462b-a8ef-f50eda7b2b84/resourceGroups/learn-cc17daeb-8d7c-483d-9fc1-e16a83983fd0/providers/Microsoft.Web/sites/my-pizza-app",
+    "appService.deploySubpath": "ContosoPizza/bin/Release/net8.0/publish"
+}
