@@ -1,8 +1,11 @@
-# @ContosoPizza_HostAddress = http://localhost:5093
-@ContosoPizza_HostAddress = https://my-pizza-app.azurewebsites.net
+@ContosoPizza_HostAddress = http://localhost:5093
+#@ContosoPizza_HostAddress = https://my-pizza-app.azurewebsites.net
 
-GET {{ContosoPizza_HostAddress}}/weatherforecast/
-Accept: application/json
+GET {{ContosoPizza_HostAddress}}/weatherforecast
+
+###
+
+GET {{ContosoPizza_HostAddress}}/weather/68022
 
 ###
 
@@ -31,11 +34,11 @@ Content-Type: application/json
 
 ###
 
-PUT {{ContosoPizza_HostAddress}}/pizza/4
+PUT {{ContosoPizza_HostAddress}}/pizza/6
 Content-Type: application/json
 
 {
-    "id": 4,
+    "id": 6,
     "name": "Hawaiian",
     "isGlutenFree": false
 }
